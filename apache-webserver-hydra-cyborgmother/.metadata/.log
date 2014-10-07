@@ -1,0 +1,20 @@
+!SESSION 2014-08-01 09:40:31.132 -----------------------------------------------
+eclipse.buildId=3.6.0.201407100658
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.aptana.workbench 4 0 2014-08-01 09:45:10.139
+!MESSAGE (Build 3.6.0.201407100658) [ERROR]  Requires git to clone down the bundle. Please install Git first.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Requires git to clone down the bundle. Please install Git first.
+	at com.aptana.workbench.commands.EditBundleJob.grabCopyFromRepository(EditBundleJob.java:270)
+	at com.aptana.workbench.commands.EditBundleJob.grabBundle(EditBundleJob.java:120)
+	at com.aptana.workbench.commands.EditBundleJob.run(EditBundleJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.aptana.scripting 4 0 2014-08-01 09:45:10.140
+!MESSAGE Requires git to clone down the bundle. Please install Git first.
+
+!ENTRY com.aptana.scripting 4 0 2014-08-01 09:45:10.198
+!MESSAGE Requires git to clone down the bundle. Please install Git first.

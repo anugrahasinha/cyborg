@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HYDRA-CYBORGMOTHER</title>
+	<script src="scripts/js/base.js"></script>
+	<script src="scripts/js/menuoptions.js"></script>
+	<script src="scripts/js/contentbuttonaction.js"></script>
+	<script src="scripts/js/analyzeby.js"></script>
+	<script src="scripts/js/filter.js"></script>
+	<script src="scripts/js/analyzebygraphajaxsubmitform.js"></script>
+	<script src="scripts/js/analyzebygraphajax.js"></script>
+
+</head>
+<body onLoad="base()">
+	<div id="main" style="width:1380px;backgound-color:grey;">
+		<div id="header" style="background-color:#CD853F;">
+			<h1 style="margin-left:200px;margin-bottom:0;text-align:center;">Actlog Portal<img id="loadgif" src="images/loading.gif" style="margin-top:10px;float:right;width:200px;height:20px;"></h1>
+		</div>
+		<div id="menu" style="background-color:#FFD700;height:550px;width:180px;float:left;">
+			<b>Menu</b><br>
+			<a href="http://hydra-cyborgmother.nectechnologies.in"><b>Home</b></a><br>
+			<a href="#headerLink" onclick="menuOptions('top')">Actlog Top Analysis</a><br>
+			<a href="#headerLink" onclick="menuOptions('io')">Actlog I/O Analysis</a><br>
+			<a href="#headerLink" onclick="menuOptions('lsof')">Actlog Lsof Analysis</a><br>
+		</div>
+		<div id="content" style="background-color:#EEEEEE;height:550px;width:1200px;float:left;">
+		</div>
+		<div id=result style="width=1380px;background-color:blue">
+			<iframe id="resultFrameID" name="resultFrame" style="background-color:grey;width:1380px;height:1500px;" src="result.html"></iframe>
+                </div>
+		<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+			<b>SystemBase Group</b>
+		</div>
+        <hr>
+	<img src="icons/apache_pb2_ani.gif" style="float:right;">
+        <img src="icons/poweredby.png" style="float:right;">
+	</a></div>
+</body>
+</html>
